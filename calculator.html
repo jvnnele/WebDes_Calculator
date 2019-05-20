@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Calculator</title>
+		<link rel="stylesheet" href="assets/calculator.css">
+    </head>
+    <body>
+	
+
+        <div id='calculator'>
+          <form name="cal">
+		  <br>
+		  <br>
+			<div id="name">
+              <p> C A L C U L A T O R</p></div>
+            <input type="calculatorr" name="result" />
+            <br>
+            <input type="button" value=" CE " onclick="cal.result.value = ''" />
+            <input type="button" value=" 0 " onclick="cal.result.value += '0'" />
+            <input type="button" value=" = " onclick="cal.result.value = eval(cal.result.value)" />
+            <input type="button" value=" / " onclick="cal.result.value += '/'" />
+            </br>
+            <input type="button" value=" 7 " onclick="cal.result.value += '7'" />
+            <input type="button" value=" 8 " onclick="cal.result.value += '8'" />
+            <input type="button" value=" 9 " onclick="cal.result.value += '9'" />
+            <input type="button" value=" x " onclick="cal.result.value += '*'" />
+            </br>
+			<input type="button" value=" 4 " onclick="cal.result.value += '4'" />
+            <input type="button" value=" 5 " onclick="cal.result.value += '5'" />
+            <input type="button" value=" 6 " onclick="cal.result.value += '6'" />
+            <input type="button" value=" - " onclick="cal.result.value += '-'" />
+            </br>
+			<input type="button" value=" 1 " onclick="cal.result.value += '1'" />
+            <input type="button" value=" 2 " onclick="cal.result.value += '2'" />
+            <input type="button" value=" 3 " onclick="cal.result.value += '3'" />
+            <input type="button" value=" + " onclick="cal.result.value += '+'" />
+            <br/>
+
+          </form>
+            
+        </div>
+    </body>
+</html>
